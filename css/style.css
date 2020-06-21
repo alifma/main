@@ -1,0 +1,102 @@
+/* .jumbotron img{
+    width: 200px;
+  border: 5px solid #666;
+  }
+  .jumbotron{
+  } */
+
+  html{
+           scroll-behavior: smooth;
+  }
+  .jumbotron {
+    height: 100vh;
+    background-image: url('../img/newme.jpg');
+    background-size: cover;
+    vertical-align:middle;
+    margin-bottom: 0;
+  }
+  .jumbotron div.banner_content{
+    /* padding-top: 20vh; */
+    vertical-align:middle;
+  }
+
+  .jabatan {
+    font-size: 1.52rem;
+    font-weight: lighter;
+  }
+  .nama {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 3.9rem;
+  }
+
+  .ijo {
+    color: #3DDC84;
+  }
+.about{
+  margin-top:5vh;
+}
+
+
+.about hr{
+
+  width: 250px;
+  border: 3px solid #17a2b8;
+}
+.portfolio hr{
+  width: 250px;
+  border: 3px solid #17a2b8;
+}
+.contact hr{
+  width: 250px;
+  border: 3px solid #17a2b8;
+}
+
+/* CSS NAVBAR */
+/* Style the navbar */
+#navbar {
+  z-index: 3;
+ overflow: hidden;
+ background-color: #333;
+  display: flex;
+   justify-content: center;
+}
+
+/* Navbar links */
+#navbar a {
+  z-index: 6;
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px;
+ text-decoration: none;
+}
+
+/* Page content */
+.content {
+ padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+ padding-top: 60px;
+}
+/* END CSS NAVBAR */
+
+.vertical-center {
+  /* min-height: 92%; */
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh;
+  /* These two lines are counted as one :-)       */
+
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
